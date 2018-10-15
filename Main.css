@@ -1,0 +1,69 @@
+body{
+background-color: #4695d6 ;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 200px;
+}
+
+#nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+top: 0;
+left: 0;
+overflow: hidden;
+background-color: #f69e53;
+width: 100%;
+position: fixed; 
+}
+
+#nav li {
+height: 40px;
+line-height: 40px;
+float: left;/*delete for vertical bar*/
+color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+}
+
+#nav li a {
+display: block;
+color: #fff;
+padding: 8px 16px;
+text-decoration: none;
+
+}
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+background-color: #111;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap:20px;
+	grid-auto-rows: auto;
+	grid-template-rows: none;
+}
+#name {
+	grid-column: 1;
+	grid-row: 1;
+}
+h1{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+p{
+	color: white;
+	font-family: 'Open Sans',sans-serif;
+}
+h3{
+	color: white;
+	font-family: 'Open Sans',sans-serif;
+}
+#bio {
+	background-color: #FF5733
+}
