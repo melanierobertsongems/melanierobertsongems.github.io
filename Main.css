@@ -14,6 +14,7 @@ overflow: hidden;
 background-color: #f69e53;
 width: 100%;
 position: fixed; 
+z-index: 100;
 }
 
 #nav li {
@@ -76,8 +77,14 @@ h3{
 	grid-row: 2;
 }
 
-#contacts{
-	font-size: 20px;
+
+#videography {
+	padding-top: 60px;
+}
+
+#contacts img {
+	height:75px;
+	margin-right: 32px;
 }
 
 
