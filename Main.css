@@ -60,15 +60,12 @@ h1{
 p{
 	color: white;
 	font-family: 'Open Sans',sans-serif;
+	font-size: 24px;
 }
 h3{
 	color: white;
 	font-family: 'Open Sans',sans-serif;
 
-}
-#headshot{
-	grid-column: 1;
-	grid-row: 2;
 }
 
 #bio {
@@ -85,7 +82,16 @@ h3{
 #contacts img {
 	height:75px;
 	margin-right: 32px;
+	text-align: center;
+
 }
+#contacts{
+	padding-top: 30px;
+}
+#icons{
+	align-items: center;
+}
+
 
 
 
