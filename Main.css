@@ -69,7 +69,7 @@ h3{
 }
 
 #bio {
-	background-color: #f69e53;
+	
 	grid-column: 2;
 	grid-row: 2;
 }
@@ -82,15 +82,19 @@ h3{
 #contacts img {
 	height:75px;
 	margin-right: 32px;
-	text-align: center;
+	align-items: center;
 
 }
 #contacts{
 	padding-top: 30px;
 }
-#icons{
-	align-items: center;
+
+#icons	{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
+
 
 
 
