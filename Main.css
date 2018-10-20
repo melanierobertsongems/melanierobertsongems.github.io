@@ -57,7 +57,7 @@ h1{
 	text-align: center;
 }
 
-p{
+#bio p{
 	color: white;
 	font-family: 'Open Sans',sans-serif;
 	font-size: 24px;
@@ -78,6 +78,9 @@ h3{
 #videography {
 	padding-top: 60px;
 }
+#projects {
+	padding-top: 60px;
+}
 
 #contacts img {
 	height:75px;
@@ -88,13 +91,26 @@ h3{
 #contacts{
 	padding-top: 30px;
 }
-
-#icons	{
+#cartoon img{
+	height: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto 
 }
 
+embed {
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+#eulogy p{
+	color: white;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 24px;
+}
+#eulogy{
+	padding-bottom: 300px;
+}
 
 
 
